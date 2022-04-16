@@ -1,14 +1,67 @@
 {
-  "type": "service_account",
-  "project_id": "recognize-speech-347017",
-  "private_key_id": "802fe668d10fa4b52a5be7b54746b64bc9bdf22c",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCx/HoYsymqCpwL\nEzqoGUHBweyXx12U8VmZV7nKFJFf5EQTmSEKsc8RF4NI3l4AUKJWeSFwSgXPYmFy\nHssUq2Y2quza5+wy99zJIL+lYcP5ZzAZUaHkw8T/CGFpmvhruq3Jnn2vLdZvWVNe\n2atE7jcAMZ5tXZ4JxkI8qdSsGwdIGGC2wXUhntT+cWCpJO3dafDFqzjiD/5SdN4o\nZNtypSLyOVWsuI0roEVDXUAWC3Jpwt2XNtbGMUeqkUDlQavNgMRFyaPiJkgyMl7w\nvwAjRR+kSfsHE/sEqhjRD/MrHZ8soCrxg1DwXKFGmjeRuA8mmxNIN8yPasGoZMbn\nFrn6D+WxAgMBAAECggEAD5RKeawBCx3Hn96MhVdEnrmjRHvScK2ZiqcXn50iRnL8\nFH0UW9PJjLTyrGeucbedJhWPPD12ebsiTXNtkj8YgNOATP78+U8h18cSj17Z4RRL\nrQOsuJH8RdiNckl60i8ydBH37WQFP5Thi81gxPVXAiDVvbvyj+d3N8kj0PbCsegu\no2Ue5iAM7AjwsulXl1WZKuf8lK6q8XZW831l66km22RryGsLiLwe+uQE2ZEmwVBC\noBHeFq5kOWO1pQOp9kE4P5adOhaR1XyOJGFa77D9Az+FkKV57unAdJqK1Ms13MrF\n19pIFuUfhA0EdvkTtiF7J/JR7h1zDMFbH5wjlwKOswKBgQD0qSpUBbxuj07WsFhU\nGoqZjcZatlcDcaHA95yCrjJ3u+Zj6Bq0f+O4pqN9DI8cytmtPWbPDII09jJtjsNg\nfqQAmuaFWcphyUqo08KsspEUkyXi9JNuoQKNV6rYLGK3vkzaf30mI6w8hG3QuYec\n6/yGyTWDISNghpc78Y+lJHHs1wKBgQC6PDxeQjLQpDO1sK5SSLLqN8aLcrChFXio\n8jNdeQxW43CuHxULwXZ0KAb/515gLS32CBRYp0EHPs4Ihc5VOAFnDcNrna1ehQCh\nKfjabvGkGmCMiju1XIGHZbb5xyVahcr/G6TW3xw8z1vto6l3D8qmOf6+mcAb7fN7\nEtXnu5IotwKBgF4K1DldxxNcRHqjaCBT32ispUzi/8lUGU/aHa/hk4aQlDtc0T8G\nVZr5eqgrdqsjkc5UZrs5XKdM5w9Tq+fgZdvRrsAdRnyV6fvBAfht3vRgp1R4nF8O\nxrNbulDDpuJn5JSsIofReHf+k1OCrQz1bKjGmKohx75nnaQt8wAQZTYbAoGAfCFe\nE22INSzdEoM7DblLF3YprhS5ygRnsiQNPIZMRTW/iy9IdddzPqTXVYY/j1dNxSlJ\ndnW0kEG6Tk/xYTe9J5Uy5e3o+pEoBEPXjLBZ+4lhRQt2FMIdy8NuHDoymY2H6lXg\nnx+C0L1dhp2JfMRXzEfnld8g/vyxRx0c2iJZny0CgYEA3IY2kgIQh4r9T8il8Wyu\n0LpksCHLAizP7Brm7f86fTB92aEtPXK7+ItCwRwhd1uBN8NM4G7JmKgOeb/NfwuH\nWr9CxqyqULWB6NVQu9MpPvMfQl58N9qV8EWTYZsDlVlkZ46m+QUl8VOO79D060dC\nMd/pyWZg2M2CcHqbFQ7zCLs=\n-----END PRIVATE KEY-----\n",
-  "client_email": "recognize-speech@recognize-speech-347017.iam.gserviceaccount.com",
-  "client_id": "100105713880665973049",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/recognize-speech%40recognize-speech-347017.iam.gserviceaccount.com",
-  "id": "recognize-speech-347017",
-  "session_id": "126930229"
+    "Устройство на работу": {
+        "questions": [
+            "Как устроиться к вам на работу?",
+            "Как устроиться к вам?",
+            "Как работать у вас?",
+            "Хочу работать у вас",
+            "Возможно-ли устроиться к вам?",
+            "Можно-ли мне поработать у вас?",
+            "Хочу работать редактором у вас"
+        ],
+        "answer": "Если вы хотите устроиться к нам, напишите на почту game-of-verbs@gmail.com мини-эссе о себе и прикрепите ваше портфолио."
+    },
+    "Забыл пароль": {
+        "questions": [
+            "Не помню пароль",
+            "Не могу войти",
+            "Проблемы со входом",
+            "Забыл пароль",
+            "Забыл логин",
+            "Восстановить пароль",
+            "Как восстановить пароль",
+            "Неправильный логин или пароль",
+            "Ошибка входа",
+            "Не могу войти в аккаунт"
+        ],
+        "answer": "Если вы не можете войти на сайт, воспользуйтесь кнопкой «Забыли пароль?» под формой входа. Вам на почту прийдёт письмо с дальнейшими инструкциями. Проверьте папку «Спам», иногда письма попадают в неё."
+    },
+    "Удаление аккаунта": {
+        "questions": [
+            "Хочу удалить аккаунт",
+            "Удалить аккаунт",
+            "Как удалить аккаунт",
+            "Как удалить данные обо мне",
+            "Удалить мои статьи",
+            "Как снести свой аккаунт"
+        ],
+        "answer": "Если вы хотите удалить аккаунт, это можно сделать в вашем профиле в разделе «Настройки». Пролистайте этот раздел до зоны, выделенной красным."
+    },
+    "Вопросы от забаненных": {
+        "questions": [
+            "Меня забанили",
+            "Я в бане",
+            "Разбаньте",
+            "Разбаньте моего друга",
+            "Разбаньте меня",
+            "Почему я забанен",
+            "За что меня забанили",
+            "Можно-ли купить разбан?",
+            "Хочу купить разбан",
+            "Мой друг ничего не сделал, а его забанили"
+        ],
+        "answer": "Если вы забанены, вы нарушили правила нашего сообщества. При входе на сайт вы можете увидеть доказательства ваших нарушений и ссылку на нарушенное правило. Разбан не продаётся. Если вы ознакомились с правилами и доказательствами вашей вины и у вас всё ещё есть претензии — воспользуйтесь формой «Не виновен» под сообщением о бане."
+    },
+    "Вопросы от действующих партнёров": {
+        "questions": [
+            "Где проходит совещание",
+            "Когда переведёте деньги по контракту",
+            "Скоро переведу деньги по контракту",
+            "Задерживаемся на совещание",
+            "Высылаю итоги совещания",
+            "Когда подписываем контракт?",
+            "Контракт уже в силе?"
+        ],
+        "answer": "Простите, в этом чате сидит SMM-отдел, мы не знаем ответа на этот вопрос. Обратитесь напрямую к сотруднику, с которым работаете."
+    }
 }
