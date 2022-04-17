@@ -1,8 +1,14 @@
 from vk_api.longpoll import VkLongPoll, VkEventType
+from dotenv import load_dotenv
 
 import vk_api
+import os
 
-vk_session = vk_api.VkApi(token="eb1786499fe3a3d7da94c811ad29e8a6925708c5003cd43c1d75a30189f1a54fa1addb5d0b8c21d735706")
+load_dotenv()
+
+vk_token = os.environ["VK_TOKEN"]
+
+vk_session = vk_api.VkApi(token=vk_token)
 vk_bot = vk_session.get_api()
 
 longpoll = VkLongPoll(vk_session)
