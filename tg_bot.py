@@ -1,7 +1,7 @@
 from telegram import Update, ForceReply, Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
-from dotenv import load_dotenv
 from tg_log_handler import TelegramLogsHandler
+from dotenv import load_dotenv
 from handle_intent import detect_intent_texts
 
 import os
