@@ -83,7 +83,7 @@ python create_intent.py
 
 Для запуска Telegram бота используйте команду:
 ```
-python3 main.py
+python3 tg_bot.py
 ```
 Для запуска VK бота используйте команду:
 ```
