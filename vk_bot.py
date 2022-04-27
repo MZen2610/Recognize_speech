@@ -29,10 +29,10 @@ def process_vk_message(event, vk_bot, project_id):
 
 def main():
     load_dotenv()
-    vk_token = os.environ["VK_TOKEN"]
-    project_id = os.environ["PROJECT_ID"]
-    tgm_token = os.environ["TGM_TOKEN"]
-    session_id = os.environ["SESSION_ID"]
+    vk_token = os.environ['VK_TOKEN']
+    project_id = os.environ['PROJECT_ID']
+    tgm_token = os.environ['TGM_TOKEN']
+    session_id = os.environ['SESSION_ID']
 
     logging.basicConfig(
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -52,5 +52,5 @@ def main():
         logger.error(f'VK bot error {exp}')
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

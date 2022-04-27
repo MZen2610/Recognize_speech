@@ -28,14 +28,14 @@ def create_intent(project_id, display_name, training_phrases_parts, message_text
     )
 
     intents_client.create_intent(
-        request={"parent": parent, "intent": intent}
+        request={'parent': parent, 'intent': intent}
     )
 
 
 def main():
     load_dotenv()
 
-    project_id = os.environ["PROJECT_ID"]
+    project_id = os.environ['PROJECT_ID']
 
     with open('questions.json', 'r', encoding='utf-8') as file:
         topics = json.load(file)

@@ -34,9 +34,9 @@ def forward_message(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     load_dotenv()
 
-    tgm_token = os.environ["TGM_TOKEN"]
-    session_id = os.environ["SESSION_ID"]
-    project_id = os.environ["PROJECT_ID"]
+    tgm_token = os.environ['TGM_TOKEN']
+    session_id = os.environ['SESSION_ID']
+    project_id = os.environ['PROJECT_ID']
 
     logging.basicConfig(
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
@@ -49,11 +49,14 @@ def main() -> None:
 
     dispatcher = updater.dispatcher
     dispatcher.bot_data = {'project_id': project_id}
-    dispatcher.add_handler(CommandHandler("start", start))
+    dispatcher.add_handler(CommandHandler('start', start))
     dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, forward_message))
 
-    updater.start_polling()
-    updater.idle()
+    try:
+        updater.start_polling()
+        updater.idle()
+    except Exception as exp:
+        logger.error(f'TGM bot error {exp}')
 
 
 if __name__ == '__main__':
